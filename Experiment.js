@@ -8291,7 +8291,7 @@ function trialsLoopBegin(trialsLoopScheduler, snapshot) {
     // set up handler to look after randomisation of conditions etc
     trials = new TrialHandler({
       psychoJS: psychoJS,
-      nReps: 5, method: TrialHandler.Method.RANDOM,
+      nReps: 200, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: undefined,
       seed: undefined, name: 'trials'
@@ -8350,7 +8350,7 @@ function trials_2LoopBegin(trials_2LoopScheduler, snapshot) {
     // set up handler to look after randomisation of conditions etc
     trials_2 = new TrialHandler({
       psychoJS: psychoJS,
-      nReps: 5, method: TrialHandler.Method.RANDOM,
+      nReps: 200, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: undefined,
       seed: undefined, name: 'trials_2'
@@ -8409,7 +8409,7 @@ function trials_3LoopBegin(trials_3LoopScheduler, snapshot) {
     // set up handler to look after randomisation of conditions etc
     trials_3 = new TrialHandler({
       psychoJS: psychoJS,
-      nReps: 5, method: TrialHandler.Method.RANDOM,
+      nReps: 200, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: undefined,
       seed: undefined, name: 'trials_3'
